@@ -88,6 +88,12 @@ const mainMenuTemplate = [
                 }
             },
             {
+                label: 'Fav Items',
+                click(){
+                    createAddWindow();
+                }
+            },
+            {
                 label: 'clear items',
                 click(){
                     mainWindow.webContents.send('item:clear');
