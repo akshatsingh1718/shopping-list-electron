@@ -6,7 +6,7 @@ const { autoUpdater } = require('electron-updater');
 const { app, BrowserWindow, Menu, ipcMain} = electron;
 
 // SET ENV
-process.env.MODE_ENV = 'production';
+// process.env.MODE_ENV = 'production';
 
 let focusedwindow = BrowserWindow.getFocusedWindow();
 let mainWindow;
